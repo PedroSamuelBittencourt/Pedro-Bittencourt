@@ -1,0 +1,115 @@
+header{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    background-color: #023535;
+    color: white;
+}
+body{
+    margin:0px;
+    background-color: rgba(148, 147, 147, 0.787);
+}
+.logo{
+    max-width: 1900px;
+    height: 400px;
+    background-color: #0CABA8 ;
+    margin: 40px 50px 20px 50px;
+    display: flex;
+    flex-direction: row;
+}
+section{
+    display: flex;
+    flex-direction:row;
+   
+}
+.menu{
+    display: flex;
+    flex-direction:row;
+    flex: 1;
+  
+}
+.parte{
+    flex: 1;
+    background-color:#023535;
+    margin:5px 48px 10px 50px;
+    height: 80px;
+    display: flex;
+    flex-direction: row ;
+    font-size: 15px;
+    color: white;
+  
+}
+.minha-rede{
+    text-align: center;
+    margin-left: 130px;
+    /* color: white; */
+}
+.minha-rede1{
+     color: white; 
+}
+.amostra{
+    display: flex;
+    flex-direction: row;   
+}
+.experiencia{
+    flex: 1;
+    height: 700px;
+    background-color: #ffffff;
+    margin:5px 25px 10px 50px;
+    font-family:sans-serif;
+}
+.experiencia2{
+    flex: 1;
+    height: 700px;
+    background-color: #ffffff;
+    margin:5px 50px 10px 25px;
+
+}
+footer{
+    display: flex;
+    flex-direction: row;
+}
+.rodape{
+    flex: 1;
+    max-width: 200px;
+    margin:5px 10px 10px 50px;
+    background-color: #0FC2C0;
+    height: 180px;
+    text-align: center;
+}
+.onde{
+    margin-top: 60px;
+}
+.redes{
+    flex: 1;
+    margin:5px 50px 10px 10px;
+    background-color: #0FC2C0;
+    height: 180px;  
+    text-align: center; 
+}
+.img{
+   margin-top: 45px;
+}
+.curso{
+    text-align: center;
+}
+.lista-curso{
+    margin: 5px ;
+}
+.lista-curso-li{
+    font-size: large;
+    margin-top: 15px;
+}
+.quem{
+    margin-left: 40px;
+    font-size: 50px;
+}
+.paragrafo-logo{
+    margin-left: 10px;
+    margin-right: 3px;
+    font-size: 20px;
+}
+.pedro{
+    margin-left: 20px;
+}
+

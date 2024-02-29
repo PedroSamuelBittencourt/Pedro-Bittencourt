@@ -1,0 +1,50 @@
+header{
+    height: 200px;
+    display: flex;/*deixa responsivel*/
+    flex-direction: row; /*pq é linha, se fosse coluna seria row*/
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+   flex: 1;
+   background-color:#cc0000;
+   max-width: 200px;
+   border-radius: 100px;/*Deixar redondo*/
+}
+.banner{
+    flex: 1;/*Faz com que os filhos fiquem do tamanho do pai, dividem por igual*/
+    background-color:#006699;
+}
+nav{
+    flex-direction: row;
+    display: flex;
+    flex:1;
+    height:80px;
+    
+}
+.item-menu{
+    flex: 1;
+    background-color:blue;
+    margin:5px;
+}
+section{
+    display:flex;
+    flex-direction: row;
+}
+.section-colun{
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    height: 400px;
+}
+.rectangle{
+    flex:1;
+    background-color: #ff9900;
+    margin:10px;
+}
+footer{
+    display:flex;
+    flex-direction:row;
+}
